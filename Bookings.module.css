@@ -1,0 +1,268 @@
+.container {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid black; */
+  background-image: url('https://images.pexels.com/photos/314726/pexels-photo-314726.jpeg');
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px #00000033;
+  /* margin-bottom: 20px; */
+  margin-top: -95px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.selectmovie {
+  margin-bottom: 20px;
+}
+
+.selectmovie h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.selectmovie ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.selectmovie li {
+  cursor: pointer;
+  margin-bottom: 5px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.selectmovie li:hover {
+  background-color: #e0e0e0;
+}
+
+.selectmovie li:last-child {
+  margin-bottom: 0;
+}
+
+.selectedMovie {
+  margin-bottom: 20px;
+}
+
+.selectedMovie h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.selectedSeats {
+  margin-bottom: 20px;
+}
+
+.selectedSeats h4 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.seatButtons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.seatButtons button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.seatButtons button:hover {
+  background-color: #999;
+}
+
+.selectedSeats span {
+  margin-right: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.total-seats {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Impressive styles for seat selection */
+.seat-selection {
+  margin-top: 20px;
+}
+
+.seat-selection button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.seat-selection button:hover {
+  background-color: #2980b9;
+}
+
+.seat-selection button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.boxavailseats
+{
+  width: 380px;
+  height: 40px;
+  /* border: 1px solid black; */
+  background-color: #00000033;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  padding: 3px;
+}
+
+.selectSeat
+{
+  width: 100%;
+  height: 60px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  align-items: center;
+  padding: 15px;
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  font-family: bold;
+  font-size: 20px;
+}
+
+.date-time-selection {
+  margin-top: 20px;
+}
+
+.date-time-selection h4 {
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.date-time-selection input {
+  margin-right: 10px;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.date-time-selection input[type="date"],
+.date-time-selection input[type="time"] {
+  width: 200px;
+  background-color: #fff;
+}
+
+.date-time-selection input[type="date"]:focus,
+.date-time-selection input[type="time"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Add hover effect to movie list items */
+ul li:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Add transition effect to movie cover images */
+.container {
+  transition: background-image 0.5s ease-in-out;
+}
+
+/* Add gradient background to selected movie box */
+.selectmovie {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.8)
+  );
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add box shadow to seat selection */
+.seat-selection {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add border radius to selected seats */
+.selectSeat span {
+  border-radius: 5px;
+  padding: 2px 5px;
+  margin: 2px;
+  background-color: #ffd700;
+}
+
+/* Style the date and time selection container */
+.date-time-selection {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the date and time selection header */
+.date-time-selection h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Style the date and time input fields */
+.date-time-selection input[type="date"],
+.date-time-selection input[type="time"] {
+  width: 20%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Style the date and time input fields on focus */
+.date-time-selection input[type="date"]:focus,
+.date-time-selection input[type="time"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

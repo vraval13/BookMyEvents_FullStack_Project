@@ -1,0 +1,74 @@
+body
+{
+  background-color: rgba(223, 212, 212, 0.532);
+}
+.bodyContain
+{
+  background: url('https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg');
+}
+.container
+{
+  margin-top: 1%;
+  /* border: 1px solid black; */
+  width: 1200px;
+  height: 520px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.leftcontainer
+{
+  /* margin: 10px 15px 15px 10px; */
+  width: 850px;
+  height: 500px;
+  /* border: 1px solid black; */
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background: url('https://images.pexels.com/photos/20726113/pexels-photo-20726113/free-photo-of-a-view-of-the-city-of-siena-italy.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
+  /* https://img.freepik.com/free-vector/hand-drawn-abstract-element-pattern_23-2148963670.jpg?w=740&t=st=1713186888~exp=1713187488~hmac=24e903f457ea7ee0a57ff732c5de335731a85b8a273c0dc9b014eaf29fc127d1 */
+}
+
+.leftcontainer h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.leftcontainer button {
+  width: 50%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.leftcontainer button:hover {
+  background-color: #45a049;
+}
+.leftcontainer input[type="email"],
+.leftcontainer input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.leftcontainer input[type="email"]:focus,
+.leftcontainer input[type="password"]:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+.rightcontainer
+{
+  /* margin: 10px 15px 15px 10px; */
+  width: 50%;
+  height: 500px;
+  /* border: 1px solid black; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

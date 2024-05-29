@@ -1,0 +1,188 @@
+.team
+{
+  width: 100%;
+  height: 800px;
+  /* border: 1px solid black; */
+  /* background-image: linear-gradient(yellow,lightblue, white,lightblue,yellow);
+  */
+  background: url('https://media.istockphoto.com/id/1385509455/vector/business-communication-concept.jpg?s=612x612&w=0&k=20&c=BqAT-opyxl84x3IKO4JMi6E8YB8AJIPU_7q49c8FojY=');
+  background-size: cover;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+.team4 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+  background-color: #f8f9fa;
+}
+
+.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
+  color: #3e4555;
+}
+
+.team4 .font-weight-medium {
+	font-weight: 500;
+}
+
+.team4 h5 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.team4 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+		font-size: 13px;
+}
+
+.team4 ul li a {
+  color: #8d97ad;
+  padding-right: 15px;
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.team4 ul li a:hover {
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+	color: #316ce8;
+}
+
+.team-card
+{
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.team-img
+{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.team-name
+{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.team-role
+{
+  font-size: 16px;
+  color: #6c757d;
+  margin-bottom: 15px;
+}
+
+.team-description
+{
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.social-links
+{
+  margin-top: 20px;
+}
+
+.social-link {
+  display: inline-block;
+  margin-right: 10px;
+  color: #6c757d;
+  font-size: 18px;
+}
+
+.social-link:last-child {
+  margin-right: 0;
+}
+
+/* Team.module.css */
+
+.team {
+  padding: 50px 0;
+}
+
+.team4 {
+  /* margin-top: -100px; */
+  background-color: #f8f9fa;
+}
+.team-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.team-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.team-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.team-role {
+  font-size: 16px;
+  color: #6c757d;
+  margin-bottom: 15px;
+}
+
+.team-description {
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-link {
+  display: inline-block;
+  margin-right: 10px;
+  color: #6c757d;
+  font-size: 18px;
+}
+
+.social-link:last-child {
+  margin-right: 0;
+}
+
+/* Custom classes for image alignment */
+.left-img {
+  text-align: left;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.center-img {
+  text-align: center;
+}
+
+.right-img {
+  text-align: right;
+}
+
+@media screen and (max-width: 768px)
+{
+  .team
+  {
+    height: auto;
+  }
+  img
+  {
+    margin-left: 70px;
+  }
+}

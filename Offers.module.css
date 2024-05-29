@@ -1,0 +1,107 @@
+.container
+{
+  width: 100%;
+  height: 800px;
+  background-color: azure;
+  /* border: 1px solid black; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 20px;
+}
+.head
+{
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  width: 100%;
+  height: 135px;
+  background-color: beige;
+}
+.head h2
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.headcards
+{
+  display: flex;
+  margin-top: 2%;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.iconWrapper 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+span 
+{
+  margin-top: 5px;
+}
+.offers
+{
+  width: 100%;
+  height: 550px;
+  /* border: 1px solid black; */
+  background-color:aliceblue;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.card:hover .card-text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  z-index: 1; /* Ensure text appears over image */
+}
+
+.card-text {
+  display: none; /* Hide text by default */
+}
+
+.card:hover .card-text-wrapper .card-text {
+  display: block; /* Show text when hovering */
+}
+.cardImgTop {
+  width: 100%;
+  object-fit: cover;
+}
+
+.cardBody {
+  padding: 20px;
+}
+
+.cardTitle {
+  margin-bottom: 10px;
+}
+
+.cardTextWrapper {
+  display: none;
+}
+
+.cardText {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 100%;
+}

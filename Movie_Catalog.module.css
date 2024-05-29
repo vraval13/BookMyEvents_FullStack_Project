@@ -1,0 +1,59 @@
+.container {
+  position: relative;
+  border: 2px solid black;
+  margin: 15px;
+  width: 285px;
+  height: 380px;
+  display: inline-block;
+  background-image: url('../assets/bgm.jpg');
+  color: white;
+  transition: transform 1s; 
+  border-style: inset;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.container:hover,
+.container:hover img {
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+.container img {
+  transition: transform 0.5s ease-in;
+}
+
+.container img:hover {
+  /* animation: rotation 3s infinite linear; */
+  transform: scale(1.05);
+}
+
+/* @keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }  
+  50% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(20deg);
+  }
+} */
+
+/* Media Queries for responsiveness */
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%; /* Adjusted width for smaller screens */
+    height: auto; /* Ensures content doesn't overflow */
+    margin: 10px auto; /* Center the container */
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .container {
+    width: 48%; /* Adjusted width for medium-sized screens */
+    margin: 10px; /* Adjusted margin for spacing */
+  }
+}
+
+/* Add more media queries as needed for other screen sizes */
