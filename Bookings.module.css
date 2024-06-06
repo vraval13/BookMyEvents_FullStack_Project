@@ -1,12 +1,10 @@
 .container {
   width: 100%;
   height: auto;
-  /* border: 1px solid black; */
   background-image: url('https://images.pexels.com/photos/314726/pexels-photo-314726.jpeg');
   border-radius: 5px;
   padding: 20px;
   box-shadow: 0 0 10px #00000033;
-  /* margin-bottom: 20px; */
   margin-top: -95px;
   display: flex;
   flex-direction: column;
