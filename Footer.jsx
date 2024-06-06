@@ -1,17 +1,13 @@
 import styles from "./Footer.module.css";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-function Footer() {
+function Footer() 
+{
   const navigate = useNavigate();
   return (
     <>
       <div
         className={styles.container}
-        style={
-          {
-            // border: "1px solid black",
-          }
-        }
       >
         <footer className="text-center text-lg-start bg-body-tertiary text-muted">
           {/* Section: Social media */}
@@ -25,7 +21,7 @@ function Footer() {
               backgroundColor: "antiquewhite",
             }}
           >
-            {/* Left */}
+            {/* Left Portion */}
             <div
               className="me-5 d-none d-lg-block"
               style={{
@@ -36,7 +32,7 @@ function Footer() {
                 <strong> Get connected with us on social networks:</strong>
               </span>
             </div>
-            {/* Right */}
+            {/* Right Portion */}
             <div>
               <a
                 href="/"
@@ -201,7 +197,7 @@ function Footer() {
                   </p>
                 </div>
                 <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                  {/* Content */}
+                  {/* Content Section*/}
                   <h6 className="text-uppercase fw-bold mb-4">
                     <i className="fas fa-gem me-3"></i>
                     <strong>Our Services</strong>
