@@ -1,5 +1,6 @@
 import styles from "./Bookings.module.css";
-import React, { useState } from "react";
+import  { useState } from "react";
+import React from "react";
 import movie1cov from "../assets/movie1cov.png";
 import movie2cov from "../assets/movie2cov.png";
 import movie3cov from "../assets/movie3cov.png";
