@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
+import React from "react";
 import ai1 from "../assets/ai1.jpg";
 import ai2 from "../assets/ai2.jpg";
 import ai3 from "../assets/ai3.jpg";
@@ -35,7 +36,7 @@ function BodyII()
     return () => clearInterval(intervalId);
   }, []);
 
-  const images = [ai1, ai2, ai3, ai7,ai8,ai9,ai4, ai5, ai6,ai7];
+  const images = [ai1, ai2, ai3, ai7,ai8,ai9,ai4, ai5, ai6,ai7]; //total images 
 
   return(
     <>
