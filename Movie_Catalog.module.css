@@ -23,7 +23,6 @@
 }
 
 .container img:hover {
-  /* animation: rotation 3s infinite linear; */
   transform: scale(1.05);
 }
 
