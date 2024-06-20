@@ -67,7 +67,7 @@ In a world bustling with endless entertainment options, finding the perfect movi
    npm start
 2. Open your browser and navigate to
    ```sh
-   http://localhost:5173
+   https://localhost:5173
 
 ## Contact
 
